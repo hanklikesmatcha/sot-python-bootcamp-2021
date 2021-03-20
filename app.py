@@ -15,11 +15,11 @@ def main():
     for i in items:
         encoded_string = i.encode('utf-8').decode('utf-8')
         clean_string = encoded_string.replace('<div class="centered">', '')\
-                              .replace('<div style="padding-top: 10px;">', '')\
-                              .replace('</div>', '')\
-                              .replace('Click here to find out more.', '')\
-                              .replace('-', '')\
-                              .strip()
+            .replace('<div style="padding-top: 10px;">', '')\
+            .replace('</div>', '')\
+            .replace('Click here to find out more.', '')\
+            .replace('-', '')\
+            .strip()
         unfiltered_list = clean_string.split('\n')
         title_and_description[unfiltered_list[0]] = unfiltered_list[2].strip() if len(unfiltered_list) == 3 else ''
     write_csv(title_and_description)

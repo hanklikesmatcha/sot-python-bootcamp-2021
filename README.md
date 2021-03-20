@@ -52,6 +52,11 @@ $ python app.py
 2. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 #### Reference
-[Homebrew](https://brew.sh/)
-[Python Software Foudation](https://www.python.org/downloads/)
-[Pip documentation](https://pip.pypa.io/en/stable/installing/)
+1. [Homebrew](https://brew.sh/)
+2. [Python Software Foudation](https://www.python.org/downloads/)
+3. [Pip documentation](https://pip.pypa.io/en/stable/installing/)
+
+#### Recommend to read 
+1. [CSV File Reading and Writing](https://docs.python.org/3/library/csv.html)
+2. [defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)
+3. [time](https://docs.python.org/3/library/time.html)

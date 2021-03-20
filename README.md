@@ -55,7 +55,7 @@ $ python app.py
 1. [Homebrew](https://brew.sh/)
 2. [Python Software Foudation](https://www.python.org/downloads/)
 3. [Pip documentation](https://pip.pypa.io/en/stable/installing/)
-4. 
+
 #### Recommend to read 
 1. [CSV File Reading and Writing](https://docs.python.org/3/library/csv.html)
 2. [defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)

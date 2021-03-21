@@ -5,9 +5,7 @@ from collections import defaultdict
 
 URL = 'https://thegoodregistry.com/collections/all-charities'
 web = requests.get(URL)
-web.encoding = 'utf-8'
 content = BeautifulSoup(web.content, 'html.parser')
-
 
 def main():
     title_and_description = defaultdict()

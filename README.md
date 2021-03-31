@@ -1,3 +1,8 @@
+### Beginners guide
+[Overview](https://wiki.python.org/moin/SimplePrograms)
+
+[Simple examples](https://wiki.python.org/moin/BeginnersGuide/Programmers/SimpleExamples)
+
 ### Install for Mac
 #### Install Homebrew
 ```
